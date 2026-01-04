@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios de Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+            width: 500px;
+        }
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+        col.cgroup {
+            background-color: green;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercícios de Tabela</h1>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="cgroup" span="3">
+            <col>
+            <col>
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>João Pedro</td>
+            <td>M</td>
+            <td>30</td>
+            <td>Engenheiro</td>
+        </tr>
+        <tr>
+            <td>Mariana Silva</td>
+            <td>F</td>
+            <td>22</td>
+            <td>Estudante</td>
+        </tr>
+        <tr>
+            <td>Carlos Alberto</td>
+            <td>M</td>
+            <td>45</td>
+            <td>Administrador</td>
+        </tr>
+        <tr>
+            <td>Fernanda Lima</td>
+            <td>F</td>
+            <td>28</td>
+            <td>Designer</td>
+        </tr>
+        <tr>
+            <td>Lucas Andrade</td>
+            <td>M</td>
+            <td>19</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td>Patrícia Rocha</td>
+            <td>F</td>
+            <td>34</td>
+            <td>Contadora</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
